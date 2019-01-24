@@ -1,4 +1,43 @@
 .why-this-app {
-	width: 276px;
-	max-width: 276px;
+  width: 276px;
+  max-width: 276px;
+}
+
+.pricing .title-pricing {
+  margin-bottom: 16px;
+}
+
+.tables-extended {
+  margin-top: 72px;
+}
+
+.price-amount {
+  color: #1c2027;
+}
+
+@media (min-width: 800px) {
+  .grid-container-more-apps {
+    display: grid;
+    grid-gap: 15px 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.more-app-title {
+  margin-bottom: 80px;
+}
+
+.app-title {
+  font-size: 25px;
+  color: #1d2b4c;
+}
+
+.trial-use-app {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.app-detail {
+  font-size: 15px;
+  margin-bottom: 8px;
 }
