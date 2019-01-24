@@ -12,7 +12,9 @@
 }
 
 .price-amount {
-  color: #1c2027;
+  color: #1d2b4c;
+  font-weight: 600;
+  font-size: 22px;
 }
 
 @media (min-width: 800px) {
@@ -40,4 +42,16 @@
 .app-detail {
   font-size: 15px;
   margin-bottom: 8px;
+}
+
+.tagline {
+  display: inline-grid;
+}
+
+.share-links {
+  margin-bottom: 0;
+}
+
+.sub-links {
+  margin-bottom: 15px;
 }
