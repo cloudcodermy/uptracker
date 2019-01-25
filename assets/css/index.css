@@ -1,6 +1,6 @@
 .why-this-app {
-  width: 276px;
-  max-width: 276px;
+  width: 300px;
+  max-width: 300px;
 }
 
 .pricing .title-pricing {
@@ -26,7 +26,7 @@
 @media (min-width: 800px) {
   .grid-container-more-apps {
     display: grid;
-    grid-gap: 10px 10px;
+    grid-gap: 40px 10px;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -37,22 +37,26 @@
   }
 }
 
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .grid-container-more-apps {
+    display: grid;
+    grid-gap: 40px 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-container-suppliers {
+    display: grid;
+    grid-gap: 15px 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .more-app-title {
   margin-bottom: 80px;
 }
 
-.app-title {
-  font-weight: 600;
-  color: #1d2b4c;
-}
-
-.trial-use-app {
-  font-size: 17px;
-  margin-bottom: 8px;
-}
-
 .app-detail {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 
