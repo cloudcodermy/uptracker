@@ -11,10 +11,8 @@
   margin-top: 72px;
 }
 
-.price-amount {
+.price {
   color: #1d2b4c;
-  font-weight: 600;
-  font-size: 22px;
 }
 
 @media (min-width: 800px) {
