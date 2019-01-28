@@ -10,6 +10,8 @@
     <link href="assets/css/index.css" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" href="assets/images/uptracker-logo.png">
+    <link rel="icon" href="assets/images/uptracker-logo.png">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -41,24 +43,9 @@
           <div class="site-header-inner">
             <div class="brand header-brand">
               <h1 class="m-0">
-              <a href="index.html">
-                <svg width="44" height="32" viewBox="0 0 44 32" xmlns="http://www.w3.org/2000/svg">
-                  <title>Uptracker</title>
-                  <defs>
-                  <linearGradient x1="97.927%" y1="0%" x2="1.669%" y2="0%" id="logo-a">
-                    <stop stop-color="#82DDFC" offset="0%"/>
-                    <stop stop-color="#0181F6" offset="100%"/>
-                  </linearGradient>
-                  <linearGradient x1="96.64%" y1="1.497%" x2="0%" y2="44.56%" id="logo-b">
-                    <stop stop-color="#A3A9F1" offset="0%"/>
-                    <stop stop-color="#6A72E4" offset="99.203%"/>
-                    <stop stop-color="#6A6FEC" offset="100%"/>
-                  </linearGradient>
-                  </defs>
-                  <path d="M0 16h8a8 8 0 1 0 16 0h8c0 8.837-7.163 16-16 16S0 24.837 0 16z" fill="url(#logo-a)"/>
-                  <path d="M12 0h8a8 8 0 1 0 16 0h8c0 8.837-7.163 16-16 16S12 8.837 12 0z" fill="url(#logo-b)" transform="rotate(180 28 8)"/>
-                </svg>
-              </a>
+                <a href="index.html">
+                  <img class="landing-page-logo" src="assets/images/uptracker-banner.png" alt="Uptracker logo">
+                </a>
               </h1>
             </div>
           </div>
@@ -403,7 +390,7 @@
               <div class="contact-us-extended-header text-center">
                 <div class="container-sm mb-48">
                   <h2 class="section-title mt-0 title-pricing">Pricing</h2>
-                  <p class="section-paragraph">Each credit are start from
+                  <p class="section-paragraph">Each <span class="price">order fulfillment</span> costs less than
                     <span class="price">$0.01</span>
                   </p>
                 </div>
@@ -446,37 +433,65 @@
           <div class="container">
             <div class="more-app-extended-inner section-inner">
               <div class="more-app-extended-header text-center">
-                <h2 class="section-title mt-0 more-app-title">More Apps</h2>
-                <div class="grid-container-more-apps">
-                  <div class="grid-item1 mb-32">
-                    <h3 class="mt-0">Exportable</h3>
-                    <p class="mt-24 mb-8">14-day free trial</p>
-                    <p class="app-detail">Automatically export orders in CSV format to Vendorsor Warehouse FTP</p>
-                  </div>
-                  <div class="grid-item2 mb-32">
-                    <h3 class="mt-0">Uptracker</h3>
-                    <p class="mt-24 mb-8">Free to install</p>
-                    <p class="app-detail">Automatically update tracking info from your supplies</p>
-                  </div>
-                  <div class="grid-item3 mb-32">
-                    <h3 class="mt-0">Stock Sync</h3>
-                    <p class="mt-24 mb-8">14-day free trial</p>
-                    <p class="app-detail">Add, remove and update product inventory</p>
-                  </div>
-                  <div class="grid-item4 mb-32">
-                    <h3 class="mt-0">Quick Scan</h3>
-                    <p class="mt-24 mb-8">14-day free trial</p>
-                    <p class="app-detail">Control inventory quality via barcode input</p>
-                  </div>
-                  <div class="grid-item5 mb-32">
-                    <h3 class="mt-0">Neon</h3>
-                    <p class="mt-24 mb-8">Free</p>
-                    <p class="app-detail">Increase customer confidence with sold count</p>
-                  </div>
-                  <div class="grid-item6 mb-32">
-                    <h3 class="mt-0">Product Sticker</h3>
-                    <p class="mt-24 mb-8">14-day free trial</p>
-                    <p class="app-detail">Quickly add stickers on your products or highlighting! No coding needed</p>
+                <h2 class="section-title mt-0">More Apps</h2>
+                <div class="tables-extended">
+                  <div class="pricing-tables-wrap">
+                    <div class="pricing-table is-revealing app-container">
+                      <div class="pricing-table-main">
+                        <a class="link-to-app" target="_blank" href="https://apps.shopify.com/stock-sync">
+                          <div class="app-header">
+                            <img class="mb-16" src="assets/images/stock-sync-logo.png" alt="Stock Sync">
+                          </div>
+                          <div class="pricing-table-header">
+                            <div class="pricing-table-title mt-12 mb-0 app-title">Stock Sync</div>
+                          </div>
+                          <p class="text-sm mb-8 trial-or-free">14-day free trial</p>
+                          <p class="text-sm app-brief-desc">Add, remove and update product inventory</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="pricing-table is-revealing app-container">
+                      <div class="pricing-table-main">
+                        <a class="link-to-app" target="_blank" href="https://apps.shopify.com/quick-scan">
+                          <div class="app-header">
+                            <img class="mb-16" src="assets/images/quick-scan-logo.png" alt="Quick Scan">
+                          </div>
+                          <div class="pricing-table-header">
+                            <div class="pricing-table-title mt-12 mb-0 app-title">Quick Scan</div>
+                          </div>
+                          <p class="text-sm mb-8 trial-or-free">14-day free trial</p>
+                          <p class="text-sm app-brief-desc">Control inventory quality via barcode input</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="pricing-table is-revealing app-container">
+                      <div class="pricing-table-main">
+                        <a class="link-to-app" target="_blank" href="https://apps.shopify.com/exportable">
+                          <div class="app-header">
+                            <img class="mb-16" src="assets/images/exportable-logo.png" alt="Exportable">
+                          </div>
+                          <div class="pricing-table-header">
+                            <div class="pricing-table-title mt-12 mb-0 app-title">Exportable</div>
+                          </div>
+                          <p class="text-sm mb-8 trial-or-free">14-day free trial</p>
+                          <p class="text-sm app-brief-desc">Automatically export orders in CSV format to Vendorsor Warehouse FTP</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="pricing-table is-revealing app-container">
+                      <div class="pricing-table-main">
+                        <a class="link-to-app" target="_blank" href="https://apps.shopify.com/neon">
+                          <div class="app-header">
+                            <img class="mb-16" src="assets/images/neon-logo.png" alt="Neon">
+                          </div>
+                          <div class="pricing-table-header">
+                            <div class="pricing-table-title mt-12 mb-0 app-title">Neon</div>
+                          </div>
+                          <p class="text-sm mb-8 trial-or-free">Free</p>
+                          <p class="text-sm app-brief-desc">Increase customer confidence with sold count</p>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -513,36 +528,21 @@
           <div class="site-footer-inner">
             <div class="brand footer-brand sub-links">
               <a href="index.html">
-                <svg width="44" height="32" viewBox="0 0 44 32" xmlns="http://www.w3.org/2000/svg">
-                  <title>Uptracker</title>
-                  <defs>
-                  <linearGradient x1="97.927%" y1="0%" x2="1.669%" y2="0%" id="logo-footer-a">
-                    <stop stop-color="#82DDFC" offset="0%"/>
-                    <stop stop-color="#0181F6" offset="100%"/>
-                  </linearGradient>
-                  <linearGradient x1="96.64%" y1="1.497%" x2="0%" y2="44.56%" id="logo-footer-b">
-                    <stop stop-color="#A3A9F1" offset="0%"/>
-                    <stop stop-color="#6A72E4" offset="99.203%"/>
-                    <stop stop-color="#6A6FEC" offset="100%"/>
-                  </linearGradient>
-                  </defs>
-                  <path d="M0 16h8a8 8 0 1 0 16 0h8c0 8.837-7.163 16-16 16S0 24.837 0 16z" fill="url(#logo-footer-a)"/>
-                  <path d="M12 0h8a8 8 0 1 0 16 0h8c0 8.837-7.163 16-16 16S12 8.837 12 0z" fill="url(#logo-footer-b)" transform="rotate(180 28 8)"/>
-                </svg>
+                <img class="landing-page-logo" src="assets/images/uptracker-banner.png" alt="Uptracker logo">
               </a>
             </div>
             <ul class="footer-links list-reset sub-links">
               <li>
-                <a href="3pl_list.html">List of 3PL</a>
+                <a target="_blank" href="3pl_list.html">List of 3PL</a>
               </li>
               <li>
-                <a href="privacypolicy.html">Privacy Policy</a>
+                <a target="_blank" href="privacypolicy.html">Privacy Policy</a>
               </li>
               <li>
-                <a href="https://stocksync.supportbee.com/549">FAQ's</a>
+                <a target="_blank" href="https://stocksync.supportbee.com/549">FAQ's</a>
               </li>
               <li>
-                <a href="https://www.youtube.com/playlist?list=PLKVbFUxa0CwL2DGNH7y0dvn3OJI_knXJ-">Tutorial</a>
+                <a target="_blank" href="https://www.youtube.com/playlist?list=PLKVbFUxa0CwL2DGNH7y0dvn3OJI_knXJ-">Tutorial</a>
               </li>
             </ul>
             <ul class="footer-social-links list-reset share-links">

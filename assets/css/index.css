@@ -1,6 +1,27 @@
+.landing-page-logo {
+  height: 40px;
+}
+
+@media (max-width: 400px) {
+  .landing-page-logo {
+    height: 30px;
+  }
+}
+
+@media (max-width: 645px) {
+  .site-footer-inner {
+    padding-bottom: 20px;
+  }
+}
+
 .why-this-app {
   width: 300px;
   max-width: 300px;
+}
+
+.app-container {
+  width: 276px;
+  max-width: 276px;
 }
 
 .pricing .title-pricing {
@@ -24,12 +45,6 @@
 }
 
 @media (min-width: 800px) {
-  .grid-container-more-apps {
-    display: grid;
-    grid-gap: 40px 10px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .grid-container-suppliers {
     display: grid;
     grid-gap: 15px 10px;
@@ -38,12 +53,6 @@
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
-  .grid-container-more-apps {
-    display: grid;
-    grid-gap: 40px 10px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .grid-container-suppliers {
     display: grid;
     grid-gap: 15px 10px;
@@ -51,8 +60,42 @@
   }
 }
 
-.more-app-title {
-  margin-bottom: 80px;
+.app-title {
+  font-size: 18px;
+}
+
+.trial-or-free {
+  color: #454f5b;
+  font-size: 14px;
+}
+
+.app-brief-desc {
+  color: #637381;
+  font-size: 15px;
+}
+
+.link-to-app {
+  color: #5b6a87;
+}
+
+.link-to-app:hover {
+  text-decoration: none;
+}
+
+.link-to-app:hover img {
+  box-shadow: 0px 0px 10px 1px #919ea9;
+}
+
+.link-to-app:hover .pricing-table-title {
+  color: #5c6ac4;
+}
+
+.app-header img {
+  border-radius: 10%;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 16px 24px #e7ebf6;
 }
 
 .app-detail {
