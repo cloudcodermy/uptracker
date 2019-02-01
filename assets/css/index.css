@@ -8,6 +8,12 @@
   }
 }
 
+@media (min-width: 641px) {
+  .uptracker-hero-illustration {
+    margin-top: -91px;
+  }
+}
+
 @media (max-width: 645px) {
   .site-footer-inner {
     padding-bottom: 20px;
@@ -16,7 +22,12 @@
 
 .why-this-app {
   width: 300px;
-  max-width: 300px;
+}
+
+.about-app-header img {
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .app-container {
@@ -38,6 +49,47 @@
   flex-wrap: wrap;
   padding: 24px;
   height: 100%;
+}
+
+.feature-image img {
+  max-width: 500px;
+}
+
+.multiple-source-img {
+  height: 320px;
+}
+
+/*@media (min-width: 1025px) {
+  .feature-image:not(:first-child),
+  .custom-extended-body {
+    padding: 0 50px;
+  }
+}*/
+
+@media (min-width: 1025px) {
+  .app-feature {
+    padding: 0;
+  }
+
+  .feature-image {
+    padding: 0;
+  }
+
+  .feature-body-left {
+    padding: 0 200px 0px 0px;
+  }
+
+  .feature-body-right {
+    padding: 0 0px 0px 200px;
+  }
+
+  /*.feature-body:nth-child(odd) {
+    padding: 0 100px 0px 0px;
+  }*/
+
+  /*.feature-body:nth-child(even) {
+    padding: 0 0px 0px 100px;
+  }*/
 }
 
 .price {
