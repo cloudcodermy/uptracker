@@ -1,3 +1,7 @@
+.landing-container{
+  max-width: 1200px;
+}
+
 .landing-page-logo {
   height: 40px;
 }
@@ -55,9 +59,14 @@
   max-width: 500px;
 }
 
-.multiple-source-img {
-  height: 320px;
+
+
+@media (max-width: 500px) {
+ .multiple-source-img {
+   height: auto;
+ }
 }
+
 
 /*@media (min-width: 1025px) {
   .feature-image:not(:first-child),
