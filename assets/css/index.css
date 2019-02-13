@@ -1,4 +1,4 @@
-.landing-container{
+.landing-container {
   max-width: 1200px;
 }
 
@@ -12,9 +12,50 @@
   }
 }
 
+.support-integration li {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.support-integration ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.support-integration {
+  font-size: 18px;
+}
+
+.support-by img {
+  height: 50px;
+}
+
 @media (min-width: 641px) {
   .uptracker-hero-illustration {
     margin-top: -91px;
+  }
+
+  .feature-section-inner {
+    padding-top: 60px;
+  }
+
+  .support-integration .section-inner {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .support-integration ul {
+    justify-content: space-around;
+  }
+
+  .support-integration li {
+    width: auto;
+  }
+
+  .main-page {
+    padding-bottom: 70px;
   }
 }
 
@@ -59,21 +100,11 @@
   max-width: 500px;
 }
 
-
-
 @media (max-width: 500px) {
- .multiple-source-img {
-   height: auto;
- }
-}
-
-
-/*@media (min-width: 1025px) {
-  .feature-image:not(:first-child),
-  .custom-extended-body {
-    padding: 0 50px;
+  .multiple-source-img {
+    height: auto;
   }
-}*/
+}
 
 @media (min-width: 1025px) {
   .app-feature {
@@ -91,14 +122,6 @@
   .feature-body-right {
     padding: 0 0px 0px 200px;
   }
-
-  /*.feature-body:nth-child(odd) {
-    padding: 0 100px 0px 0px;
-  }*/
-
-  /*.feature-body:nth-child(even) {
-    padding: 0 0px 0px 100px;
-  }*/
 }
 
 .price {
