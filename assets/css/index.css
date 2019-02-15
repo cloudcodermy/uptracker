@@ -42,8 +42,8 @@
   }
 
   .support-integration .section-inner {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
   .support-integration ul {
@@ -116,11 +116,11 @@
   }
 
   .feature-body-left {
-    padding: 0 200px 0px 0px;
+    padding: 0 130px 0px 0px;
   }
 
   .feature-body-right {
-    padding: 0 0px 0px 200px;
+    padding: 0 0px 0px 130px;
   }
 }
 
