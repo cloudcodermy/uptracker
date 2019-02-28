@@ -12,6 +12,37 @@
   }
 }
 
+.install-app{
+  margin-left: 130px;
+}
+
+@media(max-width: 641px) {
+  .install-app{
+    margin-left: 0px;
+  }
+}
+
+@media(max-width: 365px) {
+  .install-app{
+    margin-left: -10px;
+  }
+}
+
+.cta-button{
+  padding: 21px 50px;
+  height: 60px;
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cta-button:hover{
+  background: #ff9966;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .support-integration li {
   display: flex;
   justify-content: center;
@@ -34,7 +65,7 @@
 
 @media (min-width: 641px) {
   .uptracker-hero-illustration {
-    margin-top: -91px;
+    margin-top: -32px;
   }
 
   .feature-section-inner {
@@ -55,7 +86,7 @@
   }
 
   .main-page {
-    padding-bottom: 70px;
+    padding-bottom: 20px;
   }
 }
 
