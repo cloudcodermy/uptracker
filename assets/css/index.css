@@ -1,3 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .landing-container {
   max-width: 1200px;
 }
@@ -12,50 +25,19 @@
   }
 }
 
-.install-app {
-  margin-left: 130px;
-}
-
-@media (max-width: 641px) {
-  .install-app {
-    margin-left: 0px;
-  }
-}
-
-@media (max-width: 365px) {
-  .install-app {
-    margin-left: -10px;
-  }
-}
-
 .cta-button {
-  padding: 21px 50px;
-  height: 60px;
-  background: #ff8008; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffc837,
-    #ff8008
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffc837,
-    #ff8008
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 17px 50px;
+  height: 50px;
+  background: black;
+  color: white !important;
 }
 
-.cta-button:hover {
-  background: #ff9966; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ff5e62,
-    #ff9966
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ff5e62,
-    #ff9966
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.no-credit-card-needed {
+  display: initial;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 16px;
 }
 
 .support-integration {
@@ -143,6 +125,11 @@
 
   .app-right-choice {
     margin-right: 0px;
+  }
+
+  .no-credit-card-needed {
+    display: block;
+    margin-left: 0;
   }
 }
 
@@ -306,4 +293,8 @@
   .grid-item {
     width: 350px;
   }
+}
+
+.hero-paragraph-description {
+  margin-bottom: 60px;
 }
