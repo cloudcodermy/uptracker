@@ -131,6 +131,14 @@ body {
     display: block;
     margin-left: 0;
   }
+
+  .hero-inner {
+    flex-direction: column;
+  }
+
+  .hero-inner iframe {
+    height: 300px;
+  }
 }
 
 .why-this-app {
@@ -186,6 +194,18 @@ body {
   .feature-body-right {
     padding: 0 0px 0px 130px;
   }
+
+  .hero-copy {
+    width: 60%;
+  }
+
+  .hero-illustration.uptracker-hero-illustration {
+    width: 40%;
+  }
+
+  .hero-inner iframe {
+    height: 350px;
+  }
 }
 
 .price {
@@ -205,6 +225,18 @@ body {
     display: grid;
     grid-gap: 15px 10px;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-illustration.uptracker-hero-illustration {
+    margin-top: 40px;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+  }
+
+  .hero-inner iframe {
+    height: 400px;
   }
 }
 
