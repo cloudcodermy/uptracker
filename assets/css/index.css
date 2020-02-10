@@ -330,3 +330,19 @@ body {
 .hero-paragraph-description {
   margin-bottom: 60px;
 }
+
+.login-button {
+  display: inline;
+  color: #68b8ee !important;
+  background: white;
+  border-radius: 10em;
+  border: 1px solid #68b8ee;
+  padding: 7px 26px;
+}
+
+.login-button:hover {
+  color: white !important;
+  background: #68b8ee;
+  transition: 0.15s linear;
+}
+
