@@ -30,6 +30,8 @@ body {
   height: 50px;
   background: black;
   color: white !important;
+  position: relative;
+  z-index: 1000;
 }
 
 .no-credit-card-needed {
@@ -331,6 +333,17 @@ body {
   margin-bottom: 60px;
 }
 
+.app-description {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .app-description {
+    margin: 0px 16px 50px 16px;
+  }
+}
+
 .login-button {
   display: inline;
   color: #68b8ee !important;
@@ -346,3 +359,9 @@ body {
   transition: 0.15s linear;
 }
 
+.bigcommerce-logo {
+  margin: 0 auto;
+  position: relative;
+  margin-top: -150px;
+  height: 550px;
+}
