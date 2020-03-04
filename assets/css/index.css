@@ -174,6 +174,10 @@ body {
   max-width: 500px;
 }
 
+.hero-copy {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 500px) {
   .multiple-source-img {
     height: auto;
@@ -207,6 +211,16 @@ body {
 
   .hero-inner iframe {
     height: 350px;
+  }
+
+  .hero-inner {
+    display: flex;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-inner {
+    display: block;
   }
 }
 
@@ -364,4 +378,17 @@ body {
   position: relative;
   margin-top: -150px;
   height: 550px;
+}
+
+.error-message {
+  color: red;
+  text-align: left;
+}
+
+.contact-us-form {
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #272f4c;
+  border-radius: 4px;
 }
