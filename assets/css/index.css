@@ -28,7 +28,7 @@ body {
 .cta-button {
   padding: 17px 50px;
   height: 50px;
-  background: #3fbbf1;
+  background-color: #3fbbf1;
   color: white !important;
   position: relative;
   z-index: 1000;
