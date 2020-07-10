@@ -380,6 +380,14 @@ body {
   height: 550px;
 }
 
+.ecwid-logo {
+  margin: 0 auto;
+  position: relative;
+  margin-top: -150px;
+  height: 550px;
+  max-width: 250px;  
+}
+
 .error-message {
   color: red;
   text-align: left;
