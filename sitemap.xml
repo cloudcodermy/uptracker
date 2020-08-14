@@ -9,27 +9,37 @@
 
 <url>
   <loc>https://www.uptracker.app/</loc>
-  <lastmod>2019-02-15T06:51:46+00:00</lastmod>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.uptracker.app/index.html</loc>
-  <lastmod>2019-02-25T05:23:27+00:00</lastmod>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.uptracker.app/supported3PL</loc>
-  <lastmod>2019-02-15T06:51:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.uptracker.app/privacypolicy</loc>
-  <lastmod>2019-02-15T06:51:46+00:00</lastmod>
+  <loc>https://www.uptracker.app/ecwid</loc>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.uptracker.app/bigcommerce</loc>
-  <lastmod>2020-03-04T09:55:46+00:00</lastmod>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uptracker.app/supported3PL</loc>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uptracker.app/privacypolicy</loc>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.uptracker.app/terms</loc>
+  <lastmod>2020-07-10T04:16:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
